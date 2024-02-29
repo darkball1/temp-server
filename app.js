@@ -8,7 +8,7 @@ const client = createClient({
     url: 'redis://default:461d74ad435648879093da4a18991e2e@driven-marlin-41631.upstash.io:41631'
 });
 const app = express();
-const port = 3000;
+const port = 10000;
 app.use(cors())
 // MySQL database configuration
 const dbConfig = {
